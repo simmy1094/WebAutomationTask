@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="20.224">
+    <testcase classname="Login to shopping site, view and add four items in wishlist and lowest price item in the cart" name="To Add and Verify the lowest price item in my cart" time="19.993">
+        <system-out>
+            <![CDATA[Given I add four different products to my wishlist..........................passed
+When I view my wishlist table...............................................passed
+Then I find total four selected items in my Wishlist........................passed
+When I search for lowest price product......................................passed
+And I am able to add the lowest price item to my cart.......................passed
+Then I am able to verify the item in my cart................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

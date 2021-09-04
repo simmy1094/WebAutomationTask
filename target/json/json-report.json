@@ -1,0 +1,132 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-04T16:18:05.369Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7721777000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "browser_Start_Up.InitialSetUp.startBrowser()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "To Add and Verify the lowest price item in my cart",
+        "description": "",
+        "id": "login-to-shopping-site--view-and-add-four-items-in-wishlist-and-lowest-price-item-in-the-cart;to-add-and-verify-the-lowest-price-item-in-my-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 130234000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "browser_Start_Up.InitialSetUp.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6824507000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I add four different products to my wishlist",
+            "match": {
+              "location": "step_definitions.ShoppingSite.i_add_four_different_products_to_my_wishlist()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1022496000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I view my wishlist table",
+            "match": {
+              "location": "step_definitions.ShoppingSite.i_view_my_wishlist_table()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16732000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I find total four selected items in my Wishlist",
+            "match": {
+              "location": "step_definitions.ShoppingSite.i_find_total_four_selected_items_in_my_wishlist()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1679415000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I search for lowest price product",
+            "match": {
+              "location": "step_definitions.ShoppingSite.i_search_for_lowest_price_product()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1424960000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I am able to add the lowest price item to my cart",
+            "match": {
+              "location": "step_definitions.ShoppingSite.i_am_able_to_add_the_lowest_price_item_to_my_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1076231000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I am able to verify the item in my cart",
+            "match": {
+              "location": "step_definitions.ShoppingSite.i_am_able_to_verify_the_item_in_my_cart()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ShoppingSite"
+          }
+        ]
+      }
+    ],
+    "name": "Login to shopping site, view and add four items in wishlist and lowest price item in the cart",
+    "description": "",
+    "id": "login-to-shopping-site--view-and-add-four-items-in-wishlist-and-lowest-price-item-in-the-cart",
+    "keyword": "Feature",
+    "uri": "file:features/shoppingSite.feature",
+    "tags": [
+      {
+        "name": "@ShoppingSite",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
